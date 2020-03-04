@@ -55,20 +55,19 @@ img{
 .content_inner{
 display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
 
 }
 
 
-.cart{
+.card{
     width: 420px;
     display: inline-block;
     margin-bottom: 45px;
     
     
 }
-.cart:nth-child(2n){
-    margin-left: auto;
-}
+
 .img_text{
     color: #b4ad9e;
     font-family: 'Ubuntu', sans-serif;
